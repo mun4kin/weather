@@ -1,0 +1,7 @@
+{
+  "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../../dist/preloader-lib",
+  "lib": {
+    "entryFile": "src/public_api.ts"
+  }
+}

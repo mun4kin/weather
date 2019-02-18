@@ -1,0 +1,18 @@
+<div class="element" *ngIf="!noData; else preloader">
+  <div class="element-left">
+    <div class="element-bg-img"><img src={{data[activeElement].img}} alt="" class="img-responsive"></div>
+    <div class="element-left-bottom">
+      <app-menu (change)="changeFilter($event)"></app-menu>
+      <app-about [data]="data |filterHotels:filter" [activeElement]="activeElement" (selectActive)="changeActive($event)"></app-about>
+    </div>
+  </div>
+  <div class="element-right">
+    <app-temperatur [weather]="data[activeElement].weather" ></app-temperatur>
+    <app-followers [social_info]="data[activeElement].social_info"></app-followers>
+  </div>
+  <div class="clear"></div>
+</div>
+
+<ng-template #preloader>
+  <lib-preloader-lib></lib-preloader-lib>
+</ng-template>

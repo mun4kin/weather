@@ -1,0 +1,11 @@
+<div class="village">
+  <h3>Выбор отеля</h3>
+  <span class="line"> </span>
+  <div class="activity_box">
+    <div class="scrollbar" id="style-2" >
+
+      <app-list-item (click)="selectActiveItem(item.index)" [dataItem]="item" *ngFor=" let item of data"></app-list-item>
+
+    </div>
+  </div>
+</div>
