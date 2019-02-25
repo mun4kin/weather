@@ -1,5 +1,6 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {ISoc} from '../data-files/mockData.intefaces';
+import { ISoc } from '../../store/reducers/hotel.reducer';
+
 
 @Component({
   selector: 'app-followers',

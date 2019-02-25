@@ -1,5 +1,6 @@
 import {Pipe, PipeTransform} from '@angular/core';
-import {ImockData} from '../data-files/mockData.intefaces';
+import { ImockData } from '../../store/reducers/hotel.reducer';
+
 
 @Pipe({
   name: 'filterHotels'

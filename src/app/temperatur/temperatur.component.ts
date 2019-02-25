@@ -1,5 +1,6 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {IWeather} from '../data-files/mockData.intefaces';
+import { IWeather } from '../../store/reducers/hotel.reducer';
+
 
 @Component({
   selector: 'app-temperatur',

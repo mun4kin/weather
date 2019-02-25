@@ -1,5 +1,6 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {ImockData} from '../data-files/mockData.intefaces';
+import { ImockData } from '../../store/reducers/hotel.reducer';
+
 
 @Component({
   selector: 'app-list-item',

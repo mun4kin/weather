@@ -1,6 +1,7 @@
 import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
+import { ImockData } from '../../store/reducers/hotel.reducer';
 
-import {ImockData} from '../data-files/mockData.intefaces';
+
 
 
 @Component({

@@ -1,7 +1,8 @@
 import {Observable, of} from 'rxjs/index';
 import {Injectable} from '@angular/core';
 import {delay} from 'rxjs/internal/operators';
-import {ImockData} from './mockData.intefaces';
+import { ImockData } from '../../store/reducers/hotel.reducer';
+
 
 Injectable();
 
